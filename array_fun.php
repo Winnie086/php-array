@@ -19,12 +19,12 @@ $a=['A','B','C','D','E'];
 <?php
 $a=['A','B','C','D','E'];
 
-echo in_array("C",$a);
+echo in_array('C',$a);
 echo "<br>";
 if(in_array('C',$a)){
     echo 'C 有在陣列$a中';
 }else{
-    echo 'C 不在在陣列$a中';
+    echo 'C 不在陣列$a中';
 
 }
 
@@ -45,6 +45,8 @@ $a=['國文'=>'D',
     '數學'=>'A',
     '地理'=>'C',
     '歷史'=>'E'];
+
+
 <?php
 
 $a=['國文'=>'D',
